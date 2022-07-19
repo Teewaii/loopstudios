@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Black: hsl(0, 0%, 0%);
+    --DarkGray: hsl(0, 0%, 55%);
+    --VeryDarkGray: hsl(0, 0%, 41%);
+    --BodyFont: 'Alata', sans-serif;
+    --HeaderFont: 'Josefin Sans', sans-serif;
+}
+
+.hero{
+    /* background-image: url(./src/assets/desktop/image-hero.jpg); */
+}
