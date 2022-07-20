@@ -12,7 +12,7 @@ root.render(
   <div className="container">  
     <Header />
     <Leader />
-    {/* <Creations /> */}
+    <Creations />
   </div>
 );
 
