@@ -1,0 +1,103 @@
+ @import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Black: hsl(0, 0%, 0%);
+    --DarkGray: hsl(0, 0%, 55%);
+    --VeryDarkGray: hsl(0, 0%, 41%);
+    --BodyFont: 'Alata', sans-serif;
+    --HeaderFont: 'Josefin Sans', sans-serif;
+}
+
+.leader-container{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;    
+    background-color: white;
+    padding:20px 30px;
+    margin-top: 70px;
+}
+
+
+.leader-pix{
+    background-image: url(../../assets/mobile/image-interactive.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;   
+    /* margin-bottom: 30px; */
+}
+
+.content{
+    padding: 40px 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.leader-header{
+    font-family: var(--HeaderFont);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2.8rem;
+    margin-bottom: 30px;
+    /* width: 740px;
+    height: 63%;   */
+    /* border: 1px solid red; */
+}
+.leader-body{
+    font-size: 1.3rem;
+    text-align: center;
+    color: var(--VeryDarkGray);
+    font-family: var(--BodyFont);
+    line-height: 1.9rem;
+}
+
+@media (min-width:1500px) {
+        
+    .leader-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding:10px 120px;        
+        position: relative;
+        width: 90%;
+        height: 90vh;
+        margin: auto;
+    }
+       
+    .leader-pix{
+        background-image: url(../../assets/desktop/image-interactive.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 740px;
+        height: 63%;       
+        background-color: white;
+    }
+
+    .content{
+        transform: scale(1.5);
+        padding: 70px 20px 20px 80px;
+        position: absolute;
+        top: 400px;
+        left: 830px;
+        background-color: white;
+        max-width: 480px;
+    }
+
+ .leader-header{
+    text-align: left;
+    font-size: 2rem;
+}
+    .leader-body{
+        font-size: .7rem;
+        text-align: left;
+        line-height: 1.2rem;
+    }
+
+}

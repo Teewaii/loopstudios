@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Black: hsl(0, 0%, 0%);
+    --DarkGray: hsl(0, 0%, 55%);
+    --VeryDarkGray: hsl(0, 0%, 41%);
+    --BodyFont: 'Alata', sans-serif;
+    --HeaderFont: 'Josefin Sans', sans-serif;
+}
+
+.leader-container{
+    height: 80vh;    
+    background-color: white;
+    padding:105px 30px;
+}
+
+.leader-pix{
+    background-image: url(../../assets/mobile/image-interactive.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:300px;
+    /* margin-bottom: 30px; */
+}
+
+.content{
+    padding: 40px 20px;
+}
+.leader-header{
+    font-family: var(--HeaderFont);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2.8rem;
+    margin-bottom: 30px;
+    /* border: 1px solid red; */
+}
+.leader-body{
+    font-size: 1.3rem;
+    text-align: center;
+    color: var(--VeryDarkGray);
+    font-family: var(--BodyFont);
+    line-height: 1.9rem;
+}

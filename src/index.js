@@ -3,14 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import Header from './components/header/Header';
+import Leader from './components/leader/Leader';
+import Creations from './components/creations/Creations';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    {/* <App /> */}
+  <div className="container">  
     <Header />
-  </React.StrictMode>
+    <Leader />
+    {/* <Creations /> */}
+  </div>
 );
 
 // If you want to start measuring performance in your app, pass a function
