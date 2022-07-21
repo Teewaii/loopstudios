@@ -78,7 +78,7 @@ nav{
 }
 
 .main-nav ul li:hover{
-    background-color: grey;
+    text-decoration: underline;
 }
 
 

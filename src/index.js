@@ -5,6 +5,7 @@ import App from './App';
 import Header from './components/header/Header';
 import Leader from './components/leader/Leader';
 import Creations from './components/creations/Creations';
+import Footer from './components/footer/Footer';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -13,6 +14,7 @@ root.render(
     <Header />
     <Leader />
     <Creations />
+    <Footer />
   </div>
 );
 

@@ -21,7 +21,7 @@
     height: 80vh;    
     background-color: white;
     padding:20px 30px;
-    margin-top: 70px;
+    margin-top: 50px;
     margin-bottom: 20px;
 
 }
@@ -68,7 +68,7 @@
         align-items: center;
         padding:10px 120px;        
         position: relative;
-        width: 90%;
+        width: 75%;
         height: 90vh;
         margin: auto;
     }
