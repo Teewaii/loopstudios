@@ -56,7 +56,7 @@ nav{
     top: 0;
     right: 0;
     left: 0;
-    height: 65vh;
+    height: 85vh;
     z-index: 200;   
     visibility: hidden;
 }
@@ -78,8 +78,7 @@ nav{
 }
 
 .main-nav ul li:hover{
-    background-image: url(../../assets/mobile/image-hero.jpg);
-    /* background-color: grey; */
+    background-color: grey;
 }
 
 
