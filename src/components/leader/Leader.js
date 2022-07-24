@@ -1,6 +1,6 @@
 
 import "./Leader.css"
-import React,{useState} from "react"
+
 // import leaderPhoto from "../../assets/mobile/image-interactive.jpg"
 
 
