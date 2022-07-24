@@ -1,5 +1,5 @@
 
-import "./creations.css"
+import "./Creations.css"
 import React,{useState} from "react"
 // import products from "../../assets/creations"
 
