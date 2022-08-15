@@ -34,7 +34,7 @@
      background-repeat: no-repeat;
      background-size: 100%;
      min-height: 200px;
-     min-width: 320px;    
+     min-width: 315px;    
      margin: auto;
 
  }
@@ -82,8 +82,8 @@
         background-image: url(../../assets/desktop/image-interactive.jpg);
         background-position: center;
         background-repeat: no-repeat;
-        background-size: contain;
-        min-width: 680px;
+        background-size: cover;
+        min-width: 60px;
         height: 60%;
         background-color: white;
         
@@ -171,12 +171,19 @@
      }
 
      .content {
-         padding: 50px 20px 20px 50px;
+         /* padding: 50px 20px 20px 50px;
          position: absolute;
          top: 350px;
          left: 620px;
          background-color: white;
          max-width: 400px;
+         transform: scale(1.2); */
+         padding: 50px 20px 20px 50px;
+         position: absolute;
+         top: 431px;
+         left: 675px;
+         background-color: rgb(255, 255, 255);
+         max-width: 465px;
          transform: scale(1.2);
      }
  }
