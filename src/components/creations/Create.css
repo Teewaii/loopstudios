@@ -132,6 +132,7 @@ button:hover {
 
     .creation-container {
         margin-bottom: 30px;
+        min-height: 70vh;
     }
 
     .creations-items {

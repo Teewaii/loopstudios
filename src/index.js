@@ -4,7 +4,7 @@ import './index.css';
 // import App from './App';
 import Header from './components/header/Header';
 import Leader from './components/leader/Leader';
-import Creations from './components/creations/Creations';
+import Create from './components/creations/Create';
 import Footer from './components/footer/Footer';
 import reportWebVitals from './reportWebVitals';
 
@@ -13,7 +13,7 @@ root.render(
   <div className="container">  
     <Header />
     <Leader />
-    <Creations />
+    <Create />
     <Footer />
   </div>
 );

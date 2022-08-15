@@ -1,9 +1,7 @@
  
-import "./Creations.css"
-import React, { useState } from "react"
-// import products from "../../assets/creations"
+import "./Create.css"
 
-export default function Creations() {
+export default function Create() {
      return (
 
           <div className="creation-container">
