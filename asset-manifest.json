@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/loopstudios/static/css/main.754adac6.css",
+    "main.css": "/loopstudios/static/css/main.7dd136aa.css",
     "main.js": "/loopstudios/static/js/main.5630de2b.js",
     "static/js/787.168e3d17.chunk.js": "/loopstudios/static/js/787.168e3d17.chunk.js",
     "static/media/image-hero.jpg": "/loopstudios/static/media/image-hero.9b5aacead42e955824d3.jpg",
@@ -21,12 +21,12 @@
     "static/media/icon-facebook.svg": "/loopstudios/static/media/icon-facebook.e9773e52bc64ea377cb95af7ccb6877e.svg",
     "static/media/icon-close.svg": "/loopstudios/static/media/icon-close.bbbbb0069bb8a015e77966ccb00bf3cd.svg",
     "static/media/icon-hamburger.svg": "/loopstudios/static/media/icon-hamburger.5153cb809501d4309c231954bc0f9ec2.svg",
-    "main.754adac6.css.map": "/loopstudios/static/css/main.754adac6.css.map",
+    "main.7dd136aa.css.map": "/loopstudios/static/css/main.7dd136aa.css.map",
     "main.5630de2b.js.map": "/loopstudios/static/js/main.5630de2b.js.map",
     "787.168e3d17.chunk.js.map": "/loopstudios/static/js/787.168e3d17.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.754adac6.css",
+    "static/css/main.7dd136aa.css",
     "static/js/main.5630de2b.js"
   ]
 }
